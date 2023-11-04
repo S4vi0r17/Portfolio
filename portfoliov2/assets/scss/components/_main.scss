@@ -1,0 +1,23 @@
+@use "../helpers/variables" as v;
+
+.main__content {
+  grid-area: content;
+  background-color: v.$secondary;
+  border-radius: 10rem 0 0 10rem;
+  min-height: 100%;
+
+  .main__section {
+    background-color: white;
+    min-height: 100%;
+    border-radius: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+      margin: 0;
+      font-size: 6rem;
+    }
+  }
+}

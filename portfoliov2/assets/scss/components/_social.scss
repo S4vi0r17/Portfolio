@@ -1,0 +1,26 @@
+@use '../helpers/variables' as v;
+
+.user-info__social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    &--options{
+        text-align: center;
+        margin-top: 2rem;
+        display: flex;
+        
+    }
+    &--link{
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        a{
+            color: white;
+            &:hover{
+                color: v.$primary;
+            }
+        }
+    }
+}

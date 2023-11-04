@@ -1,0 +1,21 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "Pagina  para mostrar todos mis proyectos",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/scss:build/css"
+  },
+  "keywords": [
+    "SASS",
+    "HTML",
+    "CSS",
+    "JS",
+    "ETC."
+  ],
+  "author": "Eder Benites",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

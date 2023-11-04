@@ -1,0 +1,242 @@
+.user-info__navbar {
+  position: absolute;
+  top: 0;
+  left: -68px;
+  background-color: transparent;
+  min-width: 5rem;
+}
+.user-info__navbar .navbar__list {
+  position: relative;
+  background-color: white;
+  font-size: 2.8rem;
+  min-height: 32rem;
+  box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.user-info__navbar .navbar__list a {
+  color: #a0786c;
+  transition: color 0.2s linear;
+}
+.user-info__navbar .navbar__list a:hover {
+  color: #822f3c;
+}
+.user-info__navbar .navbar__item {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.user-info__navbar .navbar__overlay {
+  color: #822f3c;
+  display: block;
+  background-color: #a0786c;
+  white-space: nowrap;
+  position: absolute;
+  right: 2.5rem;
+  margin-top: -1rem;
+  padding: 0.5rem 1rem;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  border-radius: 2rem 2.5rem 0 2rem;
+}
+.user-info__navbar .navbar__item:hover .navbar__overlay {
+  opacity: 1;
+  right: 5.5rem;
+  margin-top: -2.5rem;
+}
+
+.main__content {
+  grid-area: content;
+  background-color: #a0786c;
+  border-radius: 10rem 0 0 10rem;
+  min-height: 100%;
+}
+.main__content .main__section {
+  background-color: white;
+  min-height: 100%;
+  border-radius: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.main__content .main__section h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+
+.aside__content {
+  grid-area: aside;
+  border-radius: 0 4rem 4rem 0;
+  overflow-x: auto;
+}
+.aside__content .aside__user-info {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  min-width: 30rem;
+  background-color: #a0786c;
+  color: white;
+}
+.aside__content .aside__user-info .user-info__container-img {
+  display: inline-block;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border: 0.3rem solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.aside__content .aside__user-info .user-info__avatar {
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-info__name {
+  color: #822f3c;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.user-info__profession {
+  color: #822f3c;
+  font-weight: 300;
+}
+
+.user-info__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.user-info__social--options {
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+}
+.user-info__social--link {
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.user-info__social--link a {
+  color: white;
+}
+.user-info__social--link a:hover {
+  color: #822f3c;
+}
+
+.user-info__button {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.user-info__button--link {
+  border: 0.2rem solid #822f3c;
+  padding: 2rem;
+  border-radius: 3rem;
+  color: white;
+  box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.22);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: background-color 0.2s linear;
+}
+.user-info__button--link:hover {
+  background-color: #822f3c;
+  color: white;
+}
+
+.user-info__footer {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+p a {
+  display: inline;
+}
+
+img,
+video,
+iframe,
+picture,
+figure {
+  max-width: 100%;
+  display: block;
+}
+
+form,
+input,
+select,
+textarea,
+button,
+label {
+  outline: none;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.content {
+  position: relative;
+  min-width: 120rem;
+  min-height: 80vh;
+  width: 75%;
+  height: 80vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "content aside";
+  grid-template-columns: 7fr 3fr;
+  border-radius: 4rem;
+  box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=app.css.map */
