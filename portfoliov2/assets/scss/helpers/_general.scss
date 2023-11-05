@@ -66,14 +66,13 @@ label {
 .content{
   position: relative;
   min-width: 120rem;
-  min-height: 80vh;
+  min-height: 70vh;
   width: 75%;
   height: 80vh;
   margin: 0 auto;
+  margin-left: 15rem;
   display: grid;
   grid-template-areas: "content aside";
   grid-template-columns: 7fr 3fr;
-
   border-radius: 4rem;
-  box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
 }

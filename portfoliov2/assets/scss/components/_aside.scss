@@ -4,6 +4,7 @@
   grid-area: aside;
   border-radius: 0 4rem 4rem 0;
   overflow-x: auto;
+  height: 57rem;
 
   .aside__user-info {
     display: flex;
@@ -11,9 +12,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     min-height: 100%;
-    min-width: 30rem;
+    min-width: 31rem;
 
     background-color: v.$secondary;
     color: white;
@@ -26,6 +26,7 @@
       border: 0.3rem solid white;
       border-radius: 50%;
       overflow: hidden;
+      margin-top: 1rem;
     }
     .user-info__avatar {
       width: 100%;
@@ -42,10 +43,11 @@
     color: v.$primary;
     font-size: 2.5rem;
     margin-top: 2rem;
-
+    margin-bottom: 0;
 }
 
 .user-info__profession{
-    color: v.$primary;
+    color: white;
     font-weight: 300 ;
+    margin-top: 0;
 }

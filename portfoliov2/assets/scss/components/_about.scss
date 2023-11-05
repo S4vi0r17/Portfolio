@@ -1,0 +1,97 @@
+@use '../helpers/variables' as v;
+
+.main__section--about{
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    .about__header{
+        font-size: 4rem;
+        h2{
+            margin: 0;
+        }
+        span{
+            color: v.$primary;
+            font-weight: 700;
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+
+    padding: 1rem;
+}
+
+
+
+.about__info--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 3rem;
+    margin-top: -1rem;
+    P{
+        line-height: 1.5;
+    }
+    .about__info--list{
+        text-align: left;
+        li{
+            margin: .5rem 2rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .about__info--title{
+        color: v.$primary;
+        font-weight: 900;
+    }
+}
+
+.about__services{
+
+    .services__container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .services__header{
+        font-size: 4rem;
+        h3{
+            margin: 0;
+            margin-bottom: 1.5rem;
+        }
+        span{
+            color: v.$primary;
+            font-weight: 700;
+        }
+    }
+    .services__service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+        .icon__container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .service__icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                img{
+                    width: 10rem;
+                }
+                
+            }
+        }
+        h4{
+          color: v.$secondary;
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+    }
+}
