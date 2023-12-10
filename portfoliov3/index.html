@@ -4,7 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eder Benites</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="/">
+          <img src="src/img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li class="header__link"><a href="#">About me</a></li>
+          <li class="header__link"><a href="#">Projects</a></li>
+          <li class="header__link"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__language">
+        <img src="src/img/language.svg" alt="language" />
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__grid container">
+        <div class="block block--about">
+          <div class="block__content">
+            <h2 class="block__heading">Eder Benites</h2>
+            <div class="block__text">
+              <p class="text-gradient">Creativity || Communication</p>
+              <p>
+                Systems Engineering student dedicated to web software
+                development.
+              </p>
+              <!-- Social -->
+              <div class="block__social">
+                <a href=""><i class="bx bxl-github"></i></a>
+                <a href=""> <i class="bx bxl-linkedin-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="block__image">
+            <img src="src/img/me.jpg" alt="me" />
+          </div>
+        </div>
+        <div class="block block--location">
+          <p class="text-gradient">Perú 🇵🇪</p>
+        </div>
+        <div class="block block--front">
+          <p class="text-gradient">Web Developer</p>
+          <p class="text-mevn">MEVN</p>
+          <p class="text-gradient">Frontend</p>
+        </div>
+        <div class="block block--tech">
+          <h3 class="text-gradient">Technologies</h3>
+          <div class="icons">
+            <i class="bx bxl-javascript"></i>
+            <i class="bx bxl-mongodb"></i>
+            <i class="bx bxl-vuejs"></i>
+            <i class="bx bxl-nodejs"></i>
+            <i class="bx bxl-html5"></i>
+            <i class="bx bxl-css3"></i>
+            <i class="bx bxl-bootstrap"></i>
+            <i class="bx bxl-sass"></i>
+            <i class="bx bxl-git"></i>
+            <i class="bx bxl-github"></i>
+            <i class="bx bxl-figma"></i>
+            <i class="bx bxl-tailwind-css"></i>
+          </div>
+        </div>
+        <div class="block">
+          <div class="block--img">
+            <img src="src/img/china.png" alt="china" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

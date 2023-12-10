@@ -1,0 +1,28 @@
+@use "../general/variables" as v;
+@use "../general/mixins" as m;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 4rem;
+
+    &__links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo, &__language{
+        cursor: pointer;
+    }
+
+    &__link{
+        padding: .8rem 1.5rem 8px 1.5rem;
+
+        &:hover a{
+            color: v.$rose;
+        }
+    }
+
+}
