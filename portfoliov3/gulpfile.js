@@ -75,7 +75,7 @@ exports.dev = dev;
 exports.images = images;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
-exports.default = series(css, dev);
+exports.default = series(images, versionWebp,css, dev);
 // exports.default = series(images, versionWebp, versionAvif, css, dev);
 
 // series() -> Ejecuta las tareas en serie, se inicia una tarea y cuando termina se ejecuta la siguiente
