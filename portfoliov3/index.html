@@ -1,335 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eder Benites</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="build/css/app.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__logo">
-        <a href="/">
-          <img src="src/img/logo.svg" alt="logo" />
-        </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eder Benites</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="build/css/app.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="/">
+        <img src="src/img/logo.svg" alt="logo" />
+      </a>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li class="header__link"><a href="#">About me</a></li>
+        <li class="header__link"><a href="#">Projects</a></li>
+        <li class="header__link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__language">
+      <img src="src/img/language.svg" alt="language" />
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__grid container">
+      <div class="card card--about">
+        <div class="card__content">
+          <h2 class="card__heading">Eder Benites</h2>
+          <div class="card__text">
+            <p class="card__text-gradient">Creativity || Communication</p>
+            <p>
+              Systems Engineering student dedicated to web software development.
+            </p>
+            <!-- Social -->
+            <div class="card__social">
+              <a href="#"><i class="bx bxl-github"></i></a>
+              <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <nav class="header__nav">
-        <ul class="header__links">
-          <li class="header__link"><a href="#">About me</a></li>
-          <li class="header__link"><a href="#">Projects</a></li>
-          <li class="header__link"><a href="#">Contact</a></li>
+      <div class="card card--image">
+        <img src="src/img/me.jpg" alt="me" />
+      </div>
+      <div class="card card--location">
+        <p class="card__text-gradient">Perú 🇵🇪</p>
+      </div>
+      <div class="card card--front">
+        <p class="card__text-gradient">Web Developer</p>
+        <p class="card__text-mevn">MEVN</p>
+        <p class="card__text-gradient">Frontend</p>
+      </div>
+      <div class="card card--tech">
+        <h3 class="card__text-gradient">Technologies</h3>
+        <div class="card__icons">
+          <i class="bx bxl-javascript"></i>
+          <!-- Agregar el resto de iconos -->
+        </div>
+      </div>
+      <div class="card card--china">
+        <div class="card--img">
+          <img src="src/img/china.png" alt="china" />
+        </div>
+      </div>
+      <div class="card card--sudio">
+        <div class="card--img">
+          <img src="src/img/sudio.png" alt="china" />
+        </div>
+      </div>
+      <div class="card card--hour">
+        <p>00:55 a. m.</p>
+      </div>
+      <div class="card card--date">
+        <p class="card__text-gradient">Saturday</p>
+        <p>November 25, 2023</p>
+      </div>
+      <div class="card card--interests">
+        <h3 class="card__heading">Interests</h3>
+        <ul class="card__list">
+          <li>Coding</li>
+          <li>Reading</li>
+          <li>Hiking</li>
+          <!-- Otros intereses -->
         </ul>
-      </nav>
-      <div class="header__language">
-        <img src="src/img/language.svg" alt="language" />
       </div>
-    </header>
+      
+    </div>
+  </main>
 
-    <main class="main">
-      <div class="main__grid container">
-        <div class="block block--about">
-          <div class="block__content">
-            <h2 class="block__heading">Eder Benites</h2>
-            <div class="block__text">
-              <p class="text-gradient">Creativity || Communication</p>
-              <p>
-                Systems Engineering student dedicated to web software
-                development.
-              </p>
-              <!-- Social -->
-              <div class="block__social">
-                <a href=""><i class="bx bxl-github"></i></a>
-                <a href=""> <i class="bx bxl-linkedin-square"></i></a>
-              </div>
-            </div>
+
+
+
+  <section class="projects container">
+    <h3 class="projects__heading">Projects</h3>
+    <div class="projects__grid">
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
           </div>
         </div>
-        <div class="block block__image">
-          <img src="src/img/me.jpg" alt="me" />
-        </div>
-        <div class="block block--location">
-          <p class="text-gradient">Perú 🇵🇪</p>
-        </div>
-        <div class="block block--front">
-          <p class="text-gradient">Web Developer</p>
-          <p class="text-mevn">MEVN</p>
-          <p class="text-gradient">Frontend</p>
-        </div>
-        <div class="block block--tech">
-          <h3 class="text-gradient">Technologies</h3>
-          <div class="icons">
-            <i class="bx bxl-javascript"></i>
-            <i class="bx bxl-mongodb"></i>
-            <i class="bx bxl-vuejs"></i>
-            <i class="bx bxl-nodejs"></i>
-            <i class="bx bxl-html5"></i>
-            <i class="bx bxl-css3"></i>
-            <i class="bx bxl-bootstrap"></i>
-            <i class="bx bxl-sass"></i>
-            <i class="bx bxl-git"></i>
-            <i class="bx bxl-github"></i>
-            <i class="bx bxl-figma"></i>
-            <i class="bx bxl-tailwind-css"></i>
-          </div>
-        </div>
-        <div class="block">
-          <div class="block--img">
-            <img src="src/img/china.png" alt="china" />
-          </div>
-        </div>
-        <div class="block">
-          <div class="block--img">
-            <img src="src/img/sudio.png" alt="china" />
-          </div>
-        </div>
-        <div class="block hour">
-          <p>00:55 a. m.</p>
-        </div>
-        <div class="block">
-          <p class="text-gradient">Saturday</p>
-          <p>November 25, 2023</p>
-        </div>
-        <div class="block"></div>
       </div>
-    </main>
+      <div class="project">
+        <div class="project__img">
 
-    <section class="projects container">
-      <h3 class="projects__heading">Projects</h3>
-      <div class="projects__grid">
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
           </div>
         </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__img">
-            
-          </div>
-          <div class="project__content">
-            <h4 class="project__title">Project 1</h4>
-            <div class="project__links">
-              <a href="#" class="project__link">Github</a>
-              <a href="#" class="project__link">Demo</a>
-            </div>
-          </div>
-        </div>
-
       </div>
-    </section>
-  </body>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img">
+
+        </div>
+        <div class="project__content">
+          <h4 class="project__title">Project 1</h4>
+          <div class="project__links">
+            <a href="#" class="project__link">Github</a>
+            <a href="#" class="project__link">Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="test">
+    <div class="box">
+      <div class="bg-conic"></div>
+    </div>
+    <div class="box">
+      <div class="bg-conic"></div>
+    </div>
+    <div class="box">
+      <div class="bg-conic"></div>
+    </div>
+    <!-- Agrega más divs con la clase "box" según sea necesario -->
+  </div>
+
+
+
+  <script src="build/js/app.js"></script>
+</body>
+
 </html>

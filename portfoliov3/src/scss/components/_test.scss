@@ -1,0 +1,36 @@
+@use 'general/variables' as v;
+@use 'general/mixins' as m;
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+    .box{
+        width: 100px;
+        background-color: red;
+        height: 100px;
+        position: relative;
+        z-index: 99999;
+    }
+
+    .bg-conic {
+        position: relative;
+        width: calc(110px);
+        height: calc(110px);
+        z-index: 0;
+        margin: 0 10px; /* Solo para dar espacio entre las cajas */
+        background: conic-gradient(from 0deg at 50% 50%, oklch(83.66% .125 176.45), oklch(55.6% .1195 247.11), oklch(83.66% .125 176.45));
+        transition: background 0.3s ease; /* Agregamos transición para un cambio suave */
+    }
+}
+
+  
